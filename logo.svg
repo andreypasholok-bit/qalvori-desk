@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="88" viewBox="0 0 340 88" role="img" aria-labelledby="title desc">
+  <title id="title">Qalvori Logo</title>
+  <desc id="desc">Wortlogo mit abstraktem Kreiszeichen und dem Namen Qalvori</desc>
+  <rect width="340" height="88" rx="0" fill="none"/>
+  <circle cx="44" cy="44" r="28" fill="#0f6b5a"/>
+  <path d="M44 20a24 24 0 1 1-17 41" fill="none" stroke="#f3d37b" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="55" cy="56" r="6" fill="#ffffff"/>
+  <text x="86" y="56" fill="#13211d" font-family="Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0">Qalvori</text>
+</svg>
