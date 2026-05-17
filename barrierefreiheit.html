@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barrierefreiheit - Qalvori Desk</title>
+    <meta name="description" content="Barrierefreiheitserklaerung nach WCAG 2.2 AA.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <header class="site-header">
+      <div class="container header-grid">
+        <a class="brand-link" href="index.html" aria-label="Qalvori Desk Startseite">
+          <img src="assets/logo.svg" width="170" height="44" alt="Qalvori">
+        </a>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menü</button>
+          <ul id="nav-list">
+            <li><a href="index.html">Shop</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="lizenz.html">Lizenz</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+            <li><a href="barrierefreiheit.html" aria-current="page">Barrierefreiheit</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container narrow">
+          <p class="eyebrow">WCAG 2.2 AA</p>
+          <h1>Barrierefreiheitserklärung</h1>
+          <p class="lead">Qalvori Desk ist so umgesetzt, dass die Seiten die Anforderungen der WCAG 2.2 auf Stufe AA erfüllen sollen und sich zusätzlich an WZG, BaFG und EN 301 549 orientieren.</p>
+          <p><strong>Stand:</strong> 17.05.2026</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container legal-single">
+          <div class="legal-text">
+            <p class="legal-intro">Selbsterklärung: vollständig vereinbar mit WCAG 2.2 AA. Die Erklärung ist über die statische Fußzeile jeder Seite erreichbar.</p>
+            <h2>Grundsatz</h2>
+            <p>Digitale Barrierefreiheit bedeutet, dass Menschen Websites und Anwendungen ohne besondere Erschwernis und grundsätzlich ohne fremde Hilfe nutzen können. Qalvori berücksichtigt dabei visuelle, auditive, motorische und kognitive Anforderungen.</p>
+
+            <h2>Rechtliche Orientierung</h2>
+            <p>Die Umsetzung orientiert sich an den vier WCAG-Prinzipien wahrnehmbar, bedienbar, verständlich und robust. Für österreichische Websites sind außerdem das Web-Zugänglichkeits-Gesetz für öffentliche Stellen und das Barrierefreiheitsgesetz für viele private B2C-Dienstleistungen relevant. Qalvori erfüllt diese Anforderungen freiwillig auch dann, wenn eine Kleinstunternehmen-Ausnahme anwendbar sein kann.</p>
+
+            <h2>Umgesetzte Maßnahmen</h2>
+            <ul>
+              <li>Semantische HTML-Struktur mit Header, Navigation, Hauptinhalt, Abschnitten und Footer.</li>
+              <li>Skip-Link zum Hauptinhalt.</li>
+              <li>Tastaturbedienbare Navigation, Buttons, Formulare und Warenkorbprozesse.</li>
+              <li>Sichtbarer Fokuszustand für Links, Buttons und Eingabefelder.</li>
+              <li>Ausreichende Farbkontraste für Text, Buttons und Statusmeldungen.</li>
+              <li>Beschriftete Formularfelder mit verständlichen Fehlermeldungen.</li>
+              <li>Statusmeldungen mit <code>role="status"</code> und <code>aria-live</code>.</li>
+              <li>Alternativtexte für informative Bilder und sinnvolle ARIA-Beschriftungen.</li>
+              <li>Zoom bis 200 Prozent ohne Verlust von Inhalt oder Funktion nach manueller Prüfung.</li>
+              <li>Responsive Layouts ohne horizontales Scrollen bei 320 px Breite.</li>
+              <li>Unterstützung von <code>prefers-reduced-motion</code> für reduzierte Animationen.</li>
+            </ul>
+
+            <h2>Nicht barrierefreie Inhalte</h2>
+            <p>Es sind keine bekannten Barrieren vorhanden. Sollte ein Inhalt nicht zugänglich sein, wird er nach Rückmeldung korrigiert oder in einer barrierefreien Alternative bereitgestellt.</p>
+
+            <h2>Feedback und Kontakt</h2>
+            <p>Wenn Ihnen eine Barriere auffällt, schreiben Sie bitte an andrii.pasholok@qalvori.at oder nutzen Sie die Kontaktseite. Rückmeldungen werden spätestens innerhalb von zwei Monaten beantwortet.</p>
+
+            <h2>Durchsetzungsverfahren</h2>
+            <p>Wenn eine Rückmeldung nicht zufriedenstellend beantwortet wird, kann eine Beschwerde bei der zuständigen österreichischen Stelle eingebracht werden. Für private Dienstleistungen nach dem Barrierefreiheitsgesetz ist die Marktüberwachung beim Sozialministeriumservice relevant.</p>
+
+            <h2>Prüfmethode</h2>
+            <p>Die Website wurde anhand einer manuellen Checkliste für Tastaturbedienung, Screenreader-Struktur, Kontrast, Formularbeschriftung, Alternativtexte, Seitenstruktur, Zoom, Responsivität und Statusmeldungen geprüft. Zusätzlich eignen sich WAVE, axe DevTools, VoiceOver, NVDA und Kontrastrechner für eine externe Prüfung.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>&copy; 2026 Qalvori Digital GmbH. Software-Webshop für Qalvori Desk.</p>
+        <ul>
+          <li><a href="urheberrecht.html">Urheberrecht</a></li>
+          <li><a href="lizenz.html">Lizenz</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

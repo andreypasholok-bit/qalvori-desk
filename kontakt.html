@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt - Qalvori Desk</title>
+    <meta name="description" content="Kontaktseite von Qalvori Digital GmbH.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <header class="site-header">
+      <div class="container header-grid">
+        <a class="brand-link" href="index.html" aria-label="Qalvori Desk Startseite">
+          <img src="assets/logo.svg" width="170" height="44" alt="Qalvori">
+        </a>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menü</button>
+          <ul id="nav-list">
+            <li><a href="index.html">Shop</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="lizenz.html">Lizenz</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+            <li><a href="barrierefreiheit.html">Barrierefreiheit</a></li>
+            <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container narrow">
+          <p class="eyebrow">Kontakt</p>
+          <h1>Wir helfen weiter</h1>
+          <p class="lead">Das Formular zeigt den typischen Webshop-Kontaktprozess. Die Eingaben bleiben lokal im Browser und werden nicht abgesendet.</p>
+        </div>
+      </section>
+
+      <section class="section contact-section">
+        <div class="container contact-grid">
+          <form class="checkout-form" id="contact-form" novalidate>
+            <h2>Nachricht senden</h2>
+            <div class="form-field">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="contact-name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="contact-email">E-Mail</label>
+              <input id="contact-email" name="contact-email" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="topic">Thema</label>
+              <select id="topic" name="topic" required>
+                <option value="">Bitte wählen</option>
+                <option>Produktfrage</option>
+                <option>Lizenz</option>
+                <option>Datenschutz</option>
+                <option>Barrierefreiheit</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div class="checkbox-field">
+              <input id="privacy-ok" name="privacy-ok" type="checkbox" required>
+              <label for="privacy-ok">Ich habe die Datenschutzerklärung gelesen.</label>
+            </div>
+            <button type="submit" class="button primary">Nachricht simulieren</button>
+            <p id="contact-message" class="status" role="status" aria-live="polite"></p>
+          </form>
+
+          <address class="contact-card contact-note">
+            <h2>Qalvori Digital GmbH</h2>
+            <p>Weißenwolffstraße 2<br>4020 Linz<br>Österreich</p>
+            <p><strong>E-Mail:</strong> <a href="mailto:andrii.pasholok@qalvori.at">andrii.pasholok@qalvori.at</a></p>
+            <p><strong>Datenschutz und Barrierefreiheit:</strong> <a href="mailto:andrii.pasholok@qalvori.at">andrii.pasholok@qalvori.at</a></p>
+            <p><strong>Telefon:</strong> +43 732 000000</p>
+            <p><strong>Supportzeiten:</strong> Montag bis Freitag, 09:00 bis 17:00 Uhr</p>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>&copy; 2026 Qalvori Digital GmbH. Software-Webshop für Qalvori Desk.</p>
+        <ul>
+          <li><a href="urheberrecht.html">Urheberrecht</a></li>
+          <li><a href="lizenz.html">Lizenz</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
